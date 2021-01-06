@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+  </head>
+  <body id="shop">
+    <!--Kopfzeile-->
+      <div id="header">
+       <div class="container">
+        <a id="header-title" href="index.html">My Blog</a>
+        <ul id="header-nav">
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--Beginn-->
+   <h1>Online Shop</h1>
+   <img width="50px" height="50px" src="https://image.flaticon.com/icons/png/512/34/34627.png" id="basketImage">
+   <h2 id="itemcounter">0</h2>
+   <p id="orderTotal"></p>
+   <!--erstes Produkt-->
+   <div class="product">
+     <img  src="https://i.otto.de/i/otto/34031880/travelite-rucksack-basics-anthrazit-anthrazit.jpg?$formatz$" id="rucksack">
+     <h3>Rucksack</h3>
+     <button onclick="addToCart(backpack)">Hinzufügen</button>
+   </div>
+   <!--zweites Produkt-->
+   <div class="product">
+     <img src="https://www.adorama.com/alc/wp-content/uploads/2018/09/eos-r-rf24-105-3q-hiRes.jpg" id="kamera">
+     <h3>Kamera</h3>
+     <button onclick="addToCart(camera)">Hinzufügen</button>
+   </div>
+   <!--weiter Produkte--->
+   <div id="footer">
+    <div class="container">
+ <!--erste Textsäule-->
+     <div class="column">
+       <h4>My Links</h4>
+       <p>
+         <a href="https://Instagram.com/jan_rosenberger">Instagram Jan</a>
+         <br>
+         <a href="https://Instagram.com/sbstn_k20">Instagram Sebastian</a>
+         <br>
+         <a href="mailto:janrosenberger75@gmail.com">Schreib mir!</a>
+       </p>
+     </div>
+ <!--zweite Textsäule-->
+     <div class="column">
+       <h4>My Story</h4>
+        <p> Hey und Willkommen auf meiner ersten <br>
+          selbst programmierten Website
+        </p>
+     </div>
+     <!--Ende-->
+    </div>
+   </div>
+  </body>
+</html>
